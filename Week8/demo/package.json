@@ -1,0 +1,21 @@
+{
+    "name": "cpsc-208-week08",
+    "version": "1.0.0",
+    "author": {
+        "name": "Colin",
+        "email": "chanway@hey.com"
+    },
+    "scripts": {
+        "prestart": "babel --presets @babel/preset-react adventure.jsx --out-file adventure.js",
+        "start": "node adventure.js",
+        "dev": "node adventure.js"
+    },
+    "dependencies": {
+        "express": "^4.22.1"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.28.6",
+        "@babel/core": "^7.29.0",
+        "@babel/preset-react": "^7.28.5"
+    }
+}

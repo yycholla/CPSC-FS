@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Demo</title>
+</head>
+<body>
+    <h2>HTML Form Demo</h2>
+    <hr />
+    <form>
+        <label for="name">My Name:<br /></label>
+        <input id="name" type="text"/>
+        <hr />
+        <input type="checkbox" id="bold" />
+        <label for="bold">Bold</label>
+        <input type="checkbox" id="italic" />
+        <label for="italic">Italic</label>
+        <input type="checkbox" id="underline" />
+        <label for="underline">Underline</label>
+        <hr />
+        <input type="radio" name="Skill" id="philosophy" value="Philo" />
+        <label for="philosophy">Philosophy</label>
+        <br />
+        <input type="radio" name="Skill" id="comedy" value="com">
+        <label for="comedy">Comedy</label>
+        <br />
+        <input type="radio" name="Skill" id="carpentry" value="carp">
+        <label for="carpentry">Carpentry</label>
+        <hr />
+        <label for="class">Choose Class:</label>
+        <select name="selection" id="class">
+            <option value="barbarian">Barbarian</option>
+            <option value="ranger">Ranger</option>
+            <option value="wizard">Wizard</option>
+            <option value="druid">Druid</option>
+            <option value="paladin">Paladin</option>
+            <option value="sorc">Sorcerer</option>
+            <option value="necro">Necromancer</option>
+        </select>
+        <hr/>
+        <textarea rows="10" cols="50" name="text" id="textarea">Please enter life story here!</textarea>
+        <hr/>
+        <button 
+            type="button" 
+            id="button" 
+            onclick="alert('Hello World!')"
+            >Click Me!
+        </button>
+        <input 
+            type="button" 
+            onclick="alert('You shouldnt have done that')" 
+            id="inputButton" 
+            value="No, Click Me!" 
+        />
+    </form>
+</body>
+</html>
