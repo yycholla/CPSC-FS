@@ -1,0 +1,45 @@
+{
+  "count": 8,
+  "results": [
+    {
+      "index": "adult-black-dragon",
+      "name": "Adult Black Dragon",
+      "url": "/api/2014/monsters/adult-black-dragon"
+    },
+    {
+      "index": "bugbear",
+      "name": "Bugbear",
+      "url": "/api/2014/monsters/bugbear"
+    },
+    {
+      "index": "gelatinous-cube",
+      "name": "Gelatinous Cube",
+      "url": "/api/2014/monsters/gelatinous-cube"
+    },
+    {
+      "index": "ghoul",
+      "name": "Ghoul",
+      "url": "/api/2014/monsters/ghoul"
+    },
+    {
+      "index": "gnoll",
+      "name": "Gnoll",
+      "url": "/api/2014/monsters/gnoll"
+    },
+    {
+      "index": "owlbear",
+      "name": "Owlbear",
+      "url": "/api/2014/monsters/owlbear"
+    },
+    {
+      "index": "skeleton",
+      "name": "Skeleton",
+      "url": "/api/2014/monsters/skeleton"
+    },
+    {
+      "index": "troll",
+      "name": "Troll",
+      "url": "/api/2014/monsters/troll"
+    }
+  ]
+}
