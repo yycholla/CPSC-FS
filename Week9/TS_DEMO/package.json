@@ -1,0 +1,11 @@
+{
+    "name": "cpsc-208-typescript-demo",
+    "version": "1.0.0",
+    "scripts": {
+        "prestart": "tsc --outDir js app.ts",
+        "start": "node ./js/app.js"
+    },
+    "devDependencies": {
+        "typescript": "^6.0.2"
+    }
+}

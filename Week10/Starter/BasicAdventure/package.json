@@ -1,0 +1,10 @@
+{
+	"name": "cpsc-208-week10-basic-adventure",
+	"version": "1.0.0",
+	"devDependencies": {
+		"@babel/core": "^7.28.4",
+		"@babel/preset-react": "^7.27.1",
+		"webpack": "^5.105.4",
+		"webpack-cli": "^7.0.2"
+	}
+}
