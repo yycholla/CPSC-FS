@@ -1,3 +1,4 @@
+import axios from "axios";
 import Character from "./character";
 
 const characters = [
@@ -16,4 +17,13 @@ function getPartyMemberByName(name: string): Character | undefined {
   });
 }
 
-export { getPartyList, getPartyMemberByName };
+async function getRandomDadJoke(): Promise<string> {
+  let response = await axios.get("https://icanhazdadjoke.com", {
+    headers: {
+      Accept: "application/json",
+    },
+  });
+  return response.data.joke;
+}
+
+export { getPartyList, getPartyMemberByName, getRandomDadJoke };

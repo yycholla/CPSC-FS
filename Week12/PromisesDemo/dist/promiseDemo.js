@@ -61,4 +61,6 @@ getAsyncPartyMemeber("Blah")
     console.error(error);
 })
     .finally(() => console.log("finished"));
+console.log("\n\n\n\n\n\n");
+(0, dataProvider_1.getRandomDadJoke)().then((joke) => console.log(joke));
 //# sourceMappingURL=promiseDemo.js.map

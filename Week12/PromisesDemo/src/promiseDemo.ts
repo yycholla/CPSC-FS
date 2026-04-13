@@ -1,5 +1,5 @@
 import Character from "./data/character";
-import { getPartyMemberByName } from "./data/dataProvider";
+import { getPartyMemberByName, getRandomDadJoke } from "./data/dataProvider";
 
 // let promise = new Promise((resolve, reject) => {
 //   setTimeout(() => {
@@ -83,3 +83,7 @@ getAsyncPartyMemeber("Blah")
     console.error(error);
   })
   .finally(() => console.log("finished"));
+
+console.log("\n\n\n\n\n\n");
+
+getRandomDadJoke().then((joke) => console.log(joke));
