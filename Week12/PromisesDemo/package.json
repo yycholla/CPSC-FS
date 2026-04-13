@@ -1,0 +1,10 @@
+{
+	"name": "cpsc-208-week12-promise-demo",
+	"version": "1.0.0",
+	"scripts": {
+		"demo": "tsc && node ./dist/promiseDemo.js"
+	},
+	"devDependencies": {
+		"typescript": "^5.9.3"
+	}
+}
